@@ -32,13 +32,15 @@
         <section>
             <!-- tittle -->
             <header id="home-page">
-                <h1>Hi <span id="user-greeting">User</span>, Welcome to our website</h1>
+                <h1>Hi <span id="userName"></span>, Welcome to our website</h1>
                 <p>Lorem ipsum dolor sit amet.</p>
             </header>
 
-            <div class="banner-image">
+            <div class="banner-image banner-image-1"></div>
 
-            </div>
+            <div class="banner-image banner-image-2"></div>
+
+            <div class="banner-image banner-image-3"></div>
 
         </section>
 
@@ -69,9 +71,21 @@
                 <h1>Message us</h1>
             </header>
 
-            <div class="content"></div>
+            <div class="content">
+                    <div>
+                        <label for="namaInput">Name :</label>
+                        <input type="text" id="namaInput" placeholder="Enter your name">
+                    </div>
+
+                    <button id="btnForm">SUBMIT</button>
+
+
+                <div id="resultForm"></div>
+            </div>
           </section>
     </main>
+
+
 
     <hr />
 
@@ -79,6 +93,9 @@
     <footer>
         <p>&copy; 2025 - All rights reserved</p>
     </footer>
+
+<!-- script -->
+    <script src="js\script.js"></script>
 </body>
 
 </html>

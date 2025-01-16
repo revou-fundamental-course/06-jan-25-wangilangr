@@ -1,4 +1,10 @@
 /* ini file CSS */
+body {
+    background-image: url("https://images.unsplash.com/photo-1542038335240-86aea625b913?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -50px 0;
+}
 
 .main-header {
     display: flex;
@@ -34,9 +40,22 @@ nav>a {
 
 .banner-image {
     height: 450px;
-    background-image: url(https://picsum.photos/200/300.webp);
     background-size: cover;
-    background-position: center;
+}
+
+.banner-image-1 {
+    background-image: url("https://img.freepik.com/free-photo/african-man-harvesting-vegetables_23-2151441275.jpg");
+    background-position: 0 -20px;
+}
+
+.banner-image-2 {
+    background-image: url("https://images.unsplash.com/photo-1621460248083-6271cc4437a8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: 0 -175px;
+}
+
+.banner-image-3 {
+    background-image: url("https://images.unsplash.com/photo-1622383563227-04401ab4e5ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIxfHx8ZW58MHx8fHx8");
+    background-position: 0 -5px;
 }
 
 .content {
@@ -52,7 +71,7 @@ footer {
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    background-image: url(https://picsum.photos/200/300.webp);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRozD_TtDcTWZ-YwCo9YF9ZNO_FmYNtRLm42Q&s");
     background-size: cover;
     background-position: -10px;
 }
